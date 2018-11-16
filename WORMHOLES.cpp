@@ -7,6 +7,7 @@ void fastio(){
 	 cout.tie(0);
 }
 vector<pair<int,int>>dp;
+// this function return the best leaving time from the exam centre
 ll leave(ll key,ll b[],ll n)
 {
 	ll low=0;
@@ -30,7 +31,7 @@ ll leave(ll key,ll b[],ll n)
 		
 	}
 }
-
+// this function return the best incoming time to exam centre 
 ll come(ll key,ll ar[],ll n)
 {
 	ll low=0;
